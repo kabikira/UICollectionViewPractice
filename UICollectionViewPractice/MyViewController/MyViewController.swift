@@ -78,3 +78,10 @@ extension MyViewController {
         dataSource.apply(snapshot)
     }
 }
+#if DEBUG
+extension UIViewController {
+    @objc func injected() {
+        viewDidLoad()
+    }
+}
+#endif
