@@ -21,7 +21,7 @@ class SimpleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // セルのイベントを無効にする
+        // セルのイベントを無効にする スクロールも無効
 //        collectionView.isUserInteractionEnabled = false
     }
     
